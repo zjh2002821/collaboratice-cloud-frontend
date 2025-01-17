@@ -15,7 +15,7 @@ export default class PictureEditWebSocket {
   connect() {
     const DEV_BASE_URL = "http://localhost:8081";
     const PROD_BASE_URL = "http://154.8.155.142";
-    const url = `${PROD_BASE_URL}/api/ws/picture/edit?pictureId=${this.pictureId}`
+    const url = `${DEV_BASE_URL}/api/ws/picture/edit?pictureId=${this.pictureId}`
 
     this.socket = new WebSocket(url)
 

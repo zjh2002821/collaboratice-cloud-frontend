@@ -11,8 +11,7 @@
         </a-layout-content>
       </a-layout>
       <a-layout-footer class="footer">
-<!--        <a href="https://www.codefather.cn" target="_blank"> 协同云 by 张家华 </a>-->
-        <a target="_blank"> 协同云 by 张家华 </a>
+        <a target="_blank"> 协同云 by zjh </a>
       </a-layout-footer>
     </a-layout>
   </div>
